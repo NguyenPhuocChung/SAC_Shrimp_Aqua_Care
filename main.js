@@ -11,3 +11,15 @@ document.querySelectorAll(".nav-link").forEach((link) => {
     });
   });
 });
+document.addEventListener("DOMContentLoaded", () => {
+  const animateElement = document.querySelector(".animate-at-5100px"); // Phần tử cần animation
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY >= 6100 && window.scrollY < 6200) {
+      // Kiểm tra vị trí cuộn (từ 5100px đến 5200px)
+      animateElement.classList.add("visible"); // Hiển thị animation khi cuộn tới 5100px
+    } else {
+      animateElement.classList.remove("visible"); // Ẩn animation khi cuộn ra khỏi vùng 5100px
+    }
+  });
+});

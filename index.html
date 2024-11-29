@@ -21,7 +21,7 @@
   <body>
     <!-- write nvavar hear -->
     <nav
-      class="navbar navbar-expand-lg navbar-light bg-primary"
+      class="navbar navbar-expand-lg navbar-light bg-primary posision-fixed"
       data-bs-theme="dark"
     >
       <div class="container-fluid">
@@ -66,7 +66,7 @@
     <!-- Bootstrap Carousel -->
     <div
       id="carouselExampleCaptions"
-      class="carousel slide"
+      class="carousel slide margin-top"
       data-bs-ride="carousel"
     >
       <div class="carousel-indicators">
@@ -157,11 +157,13 @@
         vệ môi trường nước.
       </p>
     </div>
-    <div class="relative">
+    <div class="relative w-100">
       <img class="absolulate img-80" src="./img/Ellipse 80.png" />
       <img class="absolulate img-81" src="./img/Ellipse 81.png" />
       <img class="absolulate img-82" src="./img/Ellipse 82.png" />
-      <div class="absolulate content1">
+      <div
+        class="absolulate content1 align-items-center justify-content-between"
+      >
         <h3>Sứ mệnh</h3>
         <p>
           Cung cấp giải pháp giám sát tự động và phân tích dữ liệu, nâng cao
@@ -186,20 +188,20 @@
     </div>
     <!-- giá trị cốt lỗi -->
     <div class="absolulate value-role w-100" id="section1">
-      <h1 class="text-center">Giá trị cốt lỗi</h1>
+      <h1 class="text-center text_underline">Giá trị cốt lỗi</h1>
       <div
         class="d-flex justify-content-center align-items-center gap-3 padding"
       >
-        <div class="d-flex justify-content-center align-items-center">
-          <div>
+        <div class="d-flex justify-content-center align-items-center gap-2">
+          <div class="d-flex flex-column gap-2">
             <img class="" src="./img/value.png" />
             <img class="" src="./img/value2.png" />
           </div>
           <img class="" src="./img/value1.png" />
         </div>
         <div class="text-center w-50">
-          <h3>CÔNG NGHỆ TIÊN TIẾN</h3>
-          <p>
+          <h3 class="color-white">CÔNG NGHỆ TIÊN TIẾN</h3>
+          <p class="color-white">
             Sự kết hợp ứng dụng IoT và AI sẽ mang đến giải pháp quản lý ao nuôi
             hiệu quả, bao gồm theo dõi chất lượng nước, lịch trình cho ăn, và
             phát hiện bệnh
@@ -208,14 +210,14 @@
       </div>
       <div class="d-flex justify-content-center align-items-center gap-3">
         <div class="text-center w-50">
-          <h3>ĐỘI NGŨ CHUYÊN GIA</h3>
-          <p>
+          <h3 class="color-white">ĐỘI NGŨ CHUYÊN GIA</h3>
+          <p class="color-white">
             Các chuyên gia trong ngành thủy sản luôn sẵn sàng tư vấn và đồng
             hành cùng người dùng trong hành trình sản xuất.
           </p>
         </div>
-        <div class="d-flex justify-content-center align-items-center">
-          <div class="d-flex">
+        <div class="d-flex justify-content-center align-items-center gap-2">
+          <div class="d-flex flex-column gap-2">
             <img class="" src="./img/value.png" />
             <img class="" src="./img/value2.png" />
           </div>
@@ -223,8 +225,8 @@
         </div>
       </div>
       <div class="d-flex justify-content-center align-items-center gap-3">
-        <div class="d-flex justify-content-center align-items-center">
-          <div>
+        <div class="d-flex justify-content-center align-items-center gap-2">
+          <div class="d-flex flex-column gap-2">
             <img class="" src="./img/value.png" />
             <img class="" src="./img/value2.png" />
           </div>
@@ -240,7 +242,7 @@
       </div>
     </div>
     <!-- sản phẩm và dịch vụ -->
-    <div class="absolulate product" id="section2">
+    <div class="absolulate product w-100" id="section2">
       <h1 class="text-center margin-bottom">Sản phẩm và dịch vụ</h1>
       <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
@@ -408,9 +410,10 @@
       <div class="text-center d-flex">
         <div class="w-75">
           <img
-            src="https://storage.googleapis.com/a1aa/image/lV24ikaHSYrFFhlCfxtisKZQMf1Htz6tUOI5ehN4k7JvNKrnA.jpg"
+            src="./img/document1.png"
             alt="Hội chứng tôm chết sớm (EMS)"
             class="rounded-circle mb-3"
+          />
           />
           <h5 class="fw-bold">Hội chứng tôm chết sớm (EMS)</h5>
           <p>
@@ -420,10 +423,11 @@
         </div>
         <div class="w-75">
           <img
-            src="https://storage.googleapis.com/a1aa/image/4NarzLkjWU62BJ2dCFKzSsqBfU8H0BU0WdmNWY3DAGnajy6JA.jpg"
+            src="./img/document2.png"
             alt="Đốm trắng"
             class="rounded-circle mb-3"
           />
+
           <h5 class="fw-bold">Đốm trắng</h5>
           <p>
             Do virus White Spot Syndrome Virus gây ra, với các triệu chứng như
@@ -433,8 +437,8 @@
         </div>
         <div class="w-75">
           <img
-            src="https://storage.googleapis.com/a1aa/image/8vJDeLgrlP0LGi6P6oU7I83ijyyQpoBuBV89b5ivwdtcjy6JA.jpg"
-            alt="Bệnh gan tụy cấp tính (AHPND)"
+            src="./img/document3.png"
+            alt="Đốm trắng"
             class="rounded-circle mb-3"
           />
           <h5 class="fw-bold">Bệnh gan tụy cấp tính (AHPND)</h5>
@@ -447,54 +451,59 @@
       </div>
     </div>
     <!-- đối tác -->
-    <div class="absolulate section" id="section3">
+    <div
+      class="absolulate section w-100 align-items-center justify-content-between"
+      id="section3"
+    >
       <!-- Partners Section -->
       <div class="padding">
         <h2 class="fw-bold text-center">Đối Tác Của Chúng Tôi</h2>
-        <div
-          class="d-flex justify-content-around align-items-center gap-3 py-4"
-        >
-          <img
-            src="https://storage.googleapis.com/a1aa/image/5BebMBkvtO3VTaJ5qfjeanuC8GAYeE8fmkjoVll6mR7OxqseE.jpg"
-            alt="Wego Uniform logo"
-            class="img-fluid"
-            width="100"
-          />
-          <img
-            src="https://storage.googleapis.com/a1aa/image/bamlXAjskpoLANRh4CgycQSLVhh0BABvkTDuVO8TnOsjVZ9E.jpg"
-            alt="Nam Anh logo"
-            class="img-fluid"
-            width="100"
-          />
-          <img
-            src="https://storage.googleapis.com/a1aa/image/i0whb8Q5R66ecqmoADJlDsOQmjVMLL1xvmD4Fgl0tP9Kry6JA.jpg"
-            alt="Tan Phat logo"
-            class="img-fluid"
-            width="100"
-          />
-          <img
-            src="https://storage.googleapis.com/a1aa/image/UcgokObbYZKSI5jNQ53Q5eVyQvfcabq6iiDtdSmSxLFMWl1TA.jpg"
-            alt="Luxfuni logo"
-            class="img-fluid"
-            width="100"
-          />
-          <img
-            src="https://storage.googleapis.com/a1aa/image/OlovXJ3HbNYUHNWwb6fJ9c8Qy0xWpVpLtW6cdKkK4YzHry6JA.jpg"
-            alt="Newlando logo"
-            class="img-fluid"
-            width="100"
-          />
+        <div class="carousel-container">
+          <div
+            class="carousel d-flex justify-content-around align-items-center gap-3 py-4"
+          >
+            <img
+              src="https://storage.googleapis.com/a1aa/image/5BebMBkvtO3VTaJ5qfjeanuC8GAYeE8fmkjoVll6mR7OxqseE.jpg"
+              alt="Wego Uniform logo"
+              class="img-fluid"
+              width="100"
+            />
+            <img
+              src="https://storage.googleapis.com/a1aa/image/bamlXAjskpoLANRh4CgycQSLVhh0BABvkTDuVO8TnOsjVZ9E.jpg"
+              alt="Nam Anh logo"
+              class="img-fluid"
+              width="100"
+            />
+            <img
+              src="https://storage.googleapis.com/a1aa/image/i0whb8Q5R66ecqmoADJlDsOQmjVMLL1xvmD4Fgl0tP9Kry6JA.jpg"
+              alt="Tan Phat logo"
+              class="img-fluid"
+              width="100"
+            />
+            <img
+              src="https://storage.googleapis.com/a1aa/image/UcgokObbYZKSI5jNQ53Q5eVyQvfcabq6iiDtdSmSxLFMWl1TA.jpg"
+              alt="Luxfuni logo"
+              class="img-fluid"
+              width="100"
+            />
+            <img
+              src="https://storage.googleapis.com/a1aa/image/OlovXJ3HbNYUHNWwb6fJ9c8Qy0xWpVpLtW6cdKkK4YzHry6JA.jpg"
+              alt="Newlando logo"
+              class="img-fluid"
+              width="100"
+            />
+          </div>
         </div>
       </div>
 
       <!-- Customer Reviews -->
-      <div class="padding margin-bottom">
+      <div class="customer padding margin-bottom">
         <h2 class="fw-bold text-center padding">
           KHÁCH HÀNG NÓI GÌ VỀ CHÚNG TÔI
         </h2>
         <hr class="border-light w-25 mx-auto" />
         <div class="d-flex justify-content-center gap-5">
-          <div class="text-start text-center">
+          <div class="text-start text-center animate-from-left">
             <img
               src="https://storage.googleapis.com/a1aa/image/E8W0qDNhnA43M50dA0s3Q7RHrX0XDupJffePUKAZXccksKrnA.jpg"
               alt="Customer 1 photo"
@@ -515,7 +524,7 @@
               <i class="fas fa-star"></i>
             </div>
           </div>
-          <div class="text-start text-center">
+          <div class="text-start text-center animate-from-right">
             <img
               src="https://storage.googleapis.com/a1aa/image/TH3gUhifNaT3SSfiVEtgb5bidorfR1Xv7fwguBC6FquGZVWPB.jpg"
               alt="Customer 2 photo"
@@ -540,7 +549,7 @@
       </div>
 
       <!-- Contact Section -->
-      <div class="bg-primary text-white py-4">
+      <div class="footer text-white py-4 w-100">
         <div class="container d-flex justify-content-between align-items-start">
           <div>
             <img
