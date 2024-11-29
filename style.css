@@ -166,9 +166,8 @@
 
 .value-role {
     top: 1300px;
-    background-image: url("./img/Rectangle\ 51.png");
-    background-repeat: none;
-    background-size: cover;
+    background: linear-gradient(357.54deg, #FFFFFF 2.06%, #2DA0FA 64.09%, #FFFFFF 97.94%);
+
     height: 100%;
 
 
@@ -184,8 +183,8 @@
 
 .product {
     top: 2600px;
-    background-image: url("./img/Rectangle\ 51.png");
-    background-size: cover;
+    background: linear-gradient(357.54deg, #FFFFFF 2.06%, #2DA0FA 64.09%, #FFFFFF 97.94%);
+
     height: 100%;
 
 }
@@ -203,8 +202,7 @@
 /*  */
 .contact {
     top: 3800px;
-    background-image: url("./img/Rectangle\ 51.png");
-    background-size: cover;
+    background: linear-gradient(357.54deg, #FFFFFF 2.06%, #2DA0FA 64.09%, #FFFFFF 97.94%);
     height: 100%;
 
 }
@@ -229,7 +227,6 @@
 
 .repository {
     top: 4400px;
-    background-size: cover;
     height: 100%;
 
 }
@@ -237,8 +234,6 @@
 .section {
     top: 4900px;
     background: linear-gradient(357.54deg, #FFFFFF 2.06%, #2DA0FA 64.09%, #FFFFFF 97.94%);
-    background-size: cover;
-
     height: 100%;
 }
 
