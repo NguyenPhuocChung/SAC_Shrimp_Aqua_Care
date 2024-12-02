@@ -235,7 +235,7 @@
     top: 4900px;
     background: linear-gradient(357.54deg, #000000 2.06%, #2D9EAB 64.09%, #000000 97.94%);
     background-size: cover;
-
+    box-shadow: 0 0 20px 10px rgba(45, 158, 171, 0.5);
 
 }
 
