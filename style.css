@@ -29,9 +29,6 @@
 .size-23 {
     font-size: 16px;
 }
-.slide {
-    margin-top: 85px;
-}
 
 .color-primary {
     color: #015C92;
@@ -290,7 +287,6 @@
 }
 
 .posision-fixed {
-    top: 0;
     position: fixed;
     z-index: 100;
     width: 100%;
