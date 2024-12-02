@@ -23,6 +23,12 @@
 
 }
 
+.sumenh,
+.tamnhin {
+    display: none;
+
+}
+
 .line {
     width: 30%;
     height: 1px;
@@ -414,5 +420,15 @@ body {
 
     .form-input {
         width: 100%;
+    }
+
+    .sumenh,
+    .tamnhin {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .tamnhin {
+        width: 300px
     }
 }
