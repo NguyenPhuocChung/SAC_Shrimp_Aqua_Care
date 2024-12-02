@@ -23,6 +23,12 @@
 
 }
 
+.line {
+    width: 30%;
+    height: 1px;
+    background-color: white;
+}
+
 .header {
     background: linear-gradient(357.54deg, #000000 2.06%, #2D9EAB 64.09%, #000000 97.94%);
 
@@ -34,7 +40,6 @@
 
 body {
     background: linear-gradient(357.54deg, #000000 2.06%, #2D9EAB 64.09%, #000000 97.94%);
-
 }
 
 .introduce {
@@ -61,7 +66,7 @@ body {
 }
 
 .witdh-introduce {
-    width: 850px;
+    width: 100%;
 }
 
 .font-weight {
@@ -87,7 +92,8 @@ body {
 .content2 {
     width: 313px;
     height: 299px;
-
+    top: 330px;
+    left: 259px;
     opacity: 0.7px;
     color: white;
 
@@ -113,6 +119,8 @@ body {
 
 .content1 {
     width: 313px;
+    top: 220px;
+    right: 130px;
     opacity: 0.7px;
     color: white;
 
@@ -187,10 +195,6 @@ body {
 
 .product {
     top: 2700px;
-    height: 1000px;
-
-
-
 }
 
 .managepond {
@@ -216,7 +220,7 @@ body {
 }
 
 .btn-custom {
-    background: linear-gradient(357.54deg, #000000 2.06%, #2D9EAB 64.09%, #000000 97.94%);
+
     color: white;
     border-radius: 50px;
 }
@@ -300,6 +304,15 @@ body {
 }
 
 @media (max-width: 450px) {
+    .introduce {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .witdh-introduce {
+        width: 100%;
+
+    }
 
     .img-80,
     .img-81,
@@ -353,7 +366,7 @@ body {
     }
 
     .value-role {
-        top: 850px;
+        top: 1250px;
     }
 
     .custom {
@@ -365,28 +378,33 @@ body {
     }
 
     .product {
-        top: 1900px;
+        top: 2200px;
 
     }
 
     .managepond {
-        top: 2100px;
+        top: 2400px;
 
     }
 
+    .image-container {
+
+        margin: 0px;
+    }
+
     .repository {
-        top: 3500px;
+        top: 3900px;
         justify-content: center;
         align-items: center !important;
     }
 
     .contact {
-        top: 2500px;
+        top: 2800px;
 
     }
 
     .section {
-        top: 4600px;
+        top: 5000px;
 
     }
 
